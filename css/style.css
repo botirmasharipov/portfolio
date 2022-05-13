@@ -1,0 +1,254 @@
+body {
+  margin: 0%;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  color: #e9536c;
+  font-family: "sacramento", cursive;
+  font-size: 500%;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin: 92px auto 80px auto;
+}
+h3 {
+  color: 11999E;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+p {
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-top: 2rem;
+}
+
+.top-container {
+  padding-top: 100px;
+  height: 100vh;
+  width: 100%;
+  background: url(../images/header.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.middle-container {
+  padding-top: 100px;
+}
+
+.developer {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+.profile {
+  width: 300px;
+  height: auto;
+  padding-top: 3rem;
+}
+
+.hero {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  padding: 2rem;
+  margin: 0 auto;
+  /* margin: 5rem auto; */
+}
+
+.hero-left,
+.hero-right {
+  flex: 1 1 370px;
+}
+
+.hero-left {
+  align-self: center;
+}
+
+.hero h1 {
+  font-size: 40px;
+}
+
+.hero p {
+  /* margin-bottom: 3rem; */
+}
+
+.background {
+  background-color: #fefbe7;
+}
+.service-header {
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #ee8683;
+}
+
+.services .services-item {
+  padding: 10px;
+  padding: 10px 50px;
+  margin-top: 30px;
+  background-color: #ee8683;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 8px 0px rgba(145, 145, 145, 0.1) !important;
+  box-shadow: 3px 3px 8px 0px rgba(145, 145, 145, 0.1) !important;
+}
+
+.services .services-item i {
+  display: inline-block;
+  font-size: 2rem;
+}
+
+.services {
+  margin-bottom: 5rem;
+}
+
+.services .services-item:hover {
+  -webkit-transform: rotateY(360deg);
+  transform: rotateY(360deg);
+  -webkit-transition: 4s ease;
+  transition: 4s ease;
+}
+
+.services .services-content {
+  padding-left: 3rem;
+}
+
+@media (max-width: 880px) {
+  .hero img {
+    max-width: 400px;
+  }
+
+  .hero-left,
+  .hero-right {
+    text-align: center;
+  }
+}
+
+/* Contact */
+.contact {
+  padding: 10rem 0 10rem 0;
+  text-align: center;
+  background: url(../images/contact-us-bg.png) center no-repeat;
+  background-size: cover;
+  animation: contact-bg 35s infinite;
+}
+
+@keyframes contact-bg {
+  0% {
+    background-color: #3d3d3d;
+  }
+
+  25% {
+    background-color: #ced8e4;
+  }
+
+  50% {
+    background-color: #519bbd;
+  }
+
+  75% {
+    background-color: #8b50d4;
+  }
+
+  100% {
+    background-color: #3d3d3d;
+  }
+}
+
+.contact-header {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  text-shadow: 0 1rem 2rem #000;
+  margin-bottom: 5rem;
+}
+
+.contact-p {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  text-transform: lowercase;
+  text-shadow: 0 1rem 2rem #000;
+  margin-bottom: 5rem;
+}
+
+/* footer */
+footer {
+  height: 200px;
+  background-color: #333333;
+}
+
+footer .r-icon a {
+  font-size: 20px;
+  color: #5c6b73;
+  padding: 10px;
+  border: 1px solid #5c6b73;
+  border-radius: 50%;
+  transform-style: preserve-3d;
+}
+
+.button {
+  background-color: #ee8683; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.r-btn {
+  background: transparent;
+  padding: 20px 0;
+  transition: 0.5s all;
+}
+.icon {
+  color: #fff;
+  transition: all 0.2s;
+}
+
+.icon:hover {
+  color: #ee8683;
+  transform: rotateZ(360deg);
+}
+
+.r-icon a:hover {
+  border: 1px solid #eee;
+  color: #eee;
+  transition: 0.5s all;
+  transform: rotateY(35deg);
+}
+
+.text-muted {
+  font-size: 1rem;
+}
