@@ -81,26 +81,25 @@ h3 {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap-reverse;
-  padding: 2rem;
   margin: 0 auto;
-  /* margin: 5rem auto; */
 }
 
 .hero-left,
 .hero-right {
-  flex: 1 1 370px;
+  flex: 1 1 300px;
 }
 
-.hero-left {
+.hero-left,
+.hero-right {
   align-self: center;
+}
+
+.hero-about {
+  font-size: 1.2rem;
 }
 
 .hero h1 {
   font-size: 40px;
-}
-
-.hero p {
-  /* margin-bottom: 3rem; */
 }
 
 .background {
@@ -116,7 +115,6 @@ h3 {
 }
 
 .services .services-item {
-  padding: 10px;
   padding: 10px 50px;
   margin-top: 30px;
   background-color: #ee8683;
@@ -263,4 +261,13 @@ footer .r-icon a {
 
 .text-muted {
   font-size: 1rem;
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+  .top-container {
+    height: 100vh;
+    width: 100%;
+    background-repeat: repeat;
+    background-size: cover;
+  }
 }
