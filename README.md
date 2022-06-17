@@ -7,4 +7,4 @@
 - BOOTSTRAP
 - JAVASCRIPT
 
-## See it [live](https://github.com/botirmasharipov/portfolio.git).
+## See it [live](botirmasharipov.github.io/portfolio/).
