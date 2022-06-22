@@ -1,6 +1,6 @@
 # portfolio
 
-## Technologies
+## Technologies:
 
 - HTML
 - CSS
